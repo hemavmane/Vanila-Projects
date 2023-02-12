@@ -1,0 +1,120 @@
+body{
+    margin: 0%;
+    padding: 0%;
+   
+}
+header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+}
+.topcontent{
+    position: relative;
+    display: flex;
+    justify-content: space-around; 
+  
+}
+
+.logo{
+    position: absolute;
+    right: 90%;
+
+}
+.items{
+    display: flex !important;
+    justify-content: space-between !important;
+    position: absolute;
+    left:80%;
+    
+}
+
+
+.data{
+    position: relative;
+ margin-top: 75px;
+    height: 500px;
+    width: 100%;
+    background-image: url(./img/scroll.jpg);
+   background-repeat: no-repeat;
+   background-size:100% ;
+   text-align: center;
+   color: white;
+}
+h1{
+    padding-top: 60px;
+}
+.div1,.div2,.div3,footer{
+    height: 300px;
+    width: 100%;
+    box-shadow: 5px 6px 6px;
+    margin: 1px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+p{
+    position: absolute;
+    top: 20%;
+font-size: 20px;
+}
+
+.a1{
+    position: absolute;
+    top: 80%;
+    width: 150px;
+    height: 45px;
+    background-color: darkcyan;
+    border: none;
+    outline: none;
+    box-shadow: 3px 3px 3px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.a1:hover{
+    border: 2px solid white;
+    outline:red;
+} */
+
+
+.div1{
+    /* background-color: rgb(200, 248, 246); */
+    font-size: 30px;
+   
+}
+
+.div2{
+    /* background-color: rgb(176, 227, 236); */
+    font-size: 30px;
+}
+
+.div3{
+    /* background-color: rgb(175, 235, 220); */
+    font-size: 30px;
+}
+
+footer,span{
+    background-color: darkcyan;
+    font-size: 25px;
+}
+
+.a2{
+    font-size: 70px;
+    color: white;
+    background: fixed;
+    text-decoration: none;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
